@@ -84,7 +84,7 @@ The function of max pooling is to pgradually reduce the spatial size of the repr
 
 **7.Position of Max Pooling**
 
-Max pooling is desired after convolution layers and it’s positioned after every 2 to 3 convolution layers. Also, it’s always better to avoid using the same before last layer, where final convolved image is obtained.
+Max pooling is desired after convolution layers and it’s positioned after every 2 to 3 convolution layers. Also, it’s always better to avoid using the same before last layer, where final convolved image is obtained.We can use it after maxpooling too.
 
 **8. 1,1 Convolution**
 
