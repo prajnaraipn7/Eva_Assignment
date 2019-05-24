@@ -14,7 +14,8 @@ Ideally 3,3 is the best kernel considered in CNN. That is a 3,3 matrix is stride
 
 26,26,32 -------convolved(64,3,3)-------24,24,64--------max pool(2,2)------12,12,64
 
-![](C:\Users\prajna.neerchal\Desktop\1_EuSjHyyDRPAQUdKCKLTgIQ.png)
+
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment4/pictures/1_EuSjHyyDRPAQUdKCKLTgIQ.png)
 
 ​                                                         Fig1: Explains the working of 3,3 Convolution
 
