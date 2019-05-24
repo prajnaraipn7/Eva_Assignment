@@ -1,8 +1,4 @@
-**Details:**
-
-Prajna,Prajnaraipn@gmail.com
-
-Notes:Gathered from Net and EVA class.
+#Notes: Gathered from Net and EVA class.
 
 <b>1. Image Normalization</b>
 
