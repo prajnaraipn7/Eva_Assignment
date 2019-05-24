@@ -27,11 +27,11 @@ An image is treated as Input. The image is represent in the form of matrix. Each
 
 This is based on the image size .We assume that the size of the image is equal to the size of the object. Suppose if am taking a image of size 400x400 and if I want to reach 1x1 using 3x3 kernels (with no consideration of other concepts like 1x1, maxpooling etc.) then we need to add 400/2 = 200 convolution layers need to be added.
 
-![](C:\Users\prajna.neerchal\Desktop\1_mcBbGiV8ne9NhF3SlpjAsA.png)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment4/pictures/1_mcBbGiV8ne9NhF3SlpjAsA.png)
 
 ​               							Fig2, Explains the convolution
 
-![](C:\Users\prajna.neerchal\Desktop\1_mlPKapLTRuVVhLMLfq46pQ.png)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment4/pictures/1_mlPKapLTRuVVhLMLfq46pQ.png)
 
 ​                                                                    Fig 3shows up to 3 layers
 
@@ -42,7 +42,7 @@ These are those containers, which helps to get the best feature after striding t
 These are the feature extractors.For example to extract vertical edges, horizontal edges out of an image.
 The number of are decided depending on the several factors such as the number of features each kernel has to extract i.e. more number of unique features to be extracted, then more kernels. 
 
-![](C:\Users\prajna.neerchal\Desktop\1_gSlM_2hk3hqxzELgu0B2Ag.png)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment4/pictures/1_gSlM_2hk3hqxzELgu0B2Ag.png)
 
 ​                                                Fig 4:View of Kernel
 
@@ -60,7 +60,7 @@ In our case, local receptive field is always 3.
 
 Its basically, how much a layer is able to see a region from the below layers!!!
 
-![](C:\Users\prajna.neerchal\Desktop\nnn.JPG)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment4/pictures/nnn.JPG)
 
 ​                                                  Fig 5: View of receptive field at kernel 2
 
@@ -80,7 +80,7 @@ The main purpose of a pooling layer is to reduce the number of parameters of the
 
 In case of Max Pooling, an example of which is shown in the *Fig, below* a kernel of size `n*n` *(2x2 in the above example)* is moved across the matrix and for each position the **max value is taken** and put in the corresponding position of the output matrix.
 
-![](C:\Users\prajna.neerchal\Desktop\1_wTu-73e3QjibbAplN4DIQA.png)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment4/pictures/1_wTu-73e3QjibbAplN4DIQA.png)
 
 ​                                                          Fig 6: Max pooling Logic
 
@@ -98,7 +98,7 @@ This is used generally to reduce the number of channels(feature maps), basically
 
 This is usually done after some convolution layers, where all the pixel values of each channel is merged with pixels values of the other and an output is obtained for each pixel i. e. it merges the pixel values and provides a scaled output thus keeping the resolution of the image same. But ,whenever one want to reduce the channels in their model they can use this.
 
-![](C:\Users\prajna.neerchal\Pictures\full_padding_no_strides_transposed_small.gif)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment4/pictures/full_padding_no_strides_transposed_small.gif)
 
 ​                                                          Fig 7: Depict of  1,1 convolution
 
@@ -128,7 +128,7 @@ It’s better to avoid batch normalization in the last layer since it normalizes
 
 Softmax ensures that network gives a decisive and a better accuracy, when applied at the last layer. This is better when compared to the results without applying the softmax. Having said that, this is not a complete probability but its probability like.
 
-![](C:\Users\prajna.neerchal\Desktop\Capture.JPG)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment4/pictures/Capture.JPG)
 
 ​                                                                   Fig 8: Formula of softmax
 
@@ -138,11 +138,11 @@ We use the softmax activation function in the output layer of a deep neural netw
 
 Here, we learn less to learn better. Here few of the neurons(kernel features) becomes non -active.That is,dropout negates and deactivates few pixels before the next convolution or transition layer is invoked. This ensures other kernels learn more to compensate this loss of information. Here, basically we drop few of the units(both hidden and visible).That is we ignore few units while forward pass and backward propagation.
 
-![](C:\Users\prajna.neerchal\Pictures\withoutdropout.JPG)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment4/pictures/withoutdropout.JPG)
 
 ​                                                                Fig 9:FC(Dense) layer without dropout
 
-![](C:\Users\prajna.neerchal\Pictures\withdropout.JPG)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment4/pictures/withdropout.JPG)
 
 ​                                                              Fig 10:FC(Dense) layer without dropout
 
