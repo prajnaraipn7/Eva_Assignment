@@ -2,7 +2,8 @@ As mentioned in the class Rout=Rin+(k-1)*Jin where K is kernel size and Jin is o
 
 Here, we have considered 5*5 convolution in between the layers.Considering this, the receptive field is 907.
 
-![](D:\EVA\Assignment7\7a_1.PNG)
+
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment7/7a_1.PNG)
 
 
 
