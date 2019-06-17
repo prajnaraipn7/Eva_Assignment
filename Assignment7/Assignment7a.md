@@ -9,9 +9,9 @@ Here, we have considered 5*5 convolution in between the layers.Considering this,
 
 Since ,here I am not able to achieve 224,224 as RF as suggested in paper , went for 3*3 Convolutions.With this, 575 as receptive field.
 
-![](D:\EVA\Assignment7\7a_2.PNG)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment7/7a_2.PNG)
 
 And then for 1*1 Convolutions, we get 267 as receptive field.
 
-![](D:\EVA\Assignment7\7a_3.PNG)
+![alt text](https://github.com/prajnaraipn7/Eva_Assignment/blob/master/Assignment7/7a_3.PNG)
 
